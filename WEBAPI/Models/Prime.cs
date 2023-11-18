@@ -2,7 +2,7 @@
 {
     public class Prime
     {
-        public int Number { get; set; }
+      //  public int Number { get; set; }
 
         public bool IsPrime(int number)
         {

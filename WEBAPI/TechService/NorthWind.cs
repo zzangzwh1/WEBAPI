@@ -77,9 +77,9 @@ namespace WEBAPI.TechService
 
 
                                         }
-                                        getCustomers.Add(customers);
+                                       
                                     }
-
+                                    getCustomers.Add(customers);
 
 
 

@@ -4,18 +4,8 @@ namespace WEBAPI.Models
 {
     public class BinaryToDecimal
     {
-        public string Binary { get; set; } = string.Empty;
-        /*   {
-     for (int i = 0; i < binary.Length; i++)
-          {
-              if (binary[i] != '0' && binary[i] != '1')
-                  return "Not Binary ";
-
-          }
-          return Convert.ToInt32(binary, 2).ToString();
-    }
-        */
-
+       // public string Binary { get; set; } = string.Empty;
+     
         public int BinaryToDec(string binary)
         {
             int decimalNumber = 0;

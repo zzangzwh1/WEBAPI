@@ -21,8 +21,8 @@ namespace WEBAPI.Controllers
         public string Get(int id)
         {
             DecimalToBinary dToBinary = new DecimalToBinary();
-            dToBinary.Number = id;
-            string number = dToBinary.DecimalTOBina(dToBinary.Number);
+          //  dToBinary.Number = id;
+            string number = dToBinary.DecimalTOBina(id);
 
             return number;
         }

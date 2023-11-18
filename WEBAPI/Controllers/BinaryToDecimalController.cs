@@ -22,8 +22,8 @@ namespace WEBAPI.Controllers
         public int Get(string binary)
         {
             BinaryToDecimal bToD =new BinaryToDecimal();
-            bToD.Binary = binary;
-            int result = bToD.BinaryToDec(bToD.Binary);
+            //bToD.Binary = binary;
+            int result = bToD.BinaryToDec(binary);
             return result;
         }
 

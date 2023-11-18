@@ -4,7 +4,7 @@ namespace WEBAPI.Models
 {
     public class DecimalToBinary
     {
-        public int Number { get; set; }
+      //  public int Number { get; set; }
         //1 2 3 4 5 6/7
         public string DecimalTOBina(int number)
         {
