@@ -14,10 +14,10 @@ namespace WEBAPI.Controllers
         [HttpGet]
         public List<GetNorthwindCustomers> Get()
         {
-            NorthWind northWind = new NorthWind();
-            List<GetNorthwindCustomers> exampleNorthWind = northWind.GetCustomers();
+            NorthWind NorthWind = new NorthWind();
+            List<GetNorthwindCustomers> ExampleNorthWind = NorthWind.GetCustomers();
 
-            return exampleNorthWind;
+            return ExampleNorthWind;
         }
         // GET api/<GetCustomersController>/5
         [HttpGet("{customerID}")]

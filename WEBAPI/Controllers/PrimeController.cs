@@ -21,9 +21,9 @@ namespace WEBAPI.Controllers
         [HttpGet("{id}")]
         public bool Get(int id)
         {
-            Prime primeNum = new Prime();
+            Prime PrimeNum = new Prime();
             //primeNum.Number = id;
-            bool isPrime = primeNum.IsPrime(id);
+            bool isPrime = PrimeNum.IsPrime(id);
             return isPrime;
         }
 

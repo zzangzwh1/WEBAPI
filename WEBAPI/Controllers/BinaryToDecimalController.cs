@@ -21,9 +21,9 @@ namespace WEBAPI.Controllers
         [HttpGet("{binary}")]
         public int Get(string binary)
         {
-            BinaryToDecimal bToD =new BinaryToDecimal();
+            BinaryToDecimal BToD =new BinaryToDecimal();
             //bToD.Binary = binary;
-            int result = bToD.BinaryToDec(binary);
+            int result = BToD.BinaryToDec(binary);
             return result;
         }
 

@@ -20,9 +20,9 @@ namespace WEBAPI.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            DecimalToBinary dToBinary = new DecimalToBinary();
+            DecimalToBinary DToBinary = new DecimalToBinary();
           //  dToBinary.Number = id;
-            string number = dToBinary.DecimalTOBina(id);
+            string number = DToBinary.DecimalTOBina(id);
 
             return number;
         }
